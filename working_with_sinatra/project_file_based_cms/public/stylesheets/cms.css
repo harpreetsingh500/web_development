@@ -1,0 +1,22 @@
+a:link {
+  text-decoration: none;
+}
+
+body {
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+.message {
+  padding: 10px;
+  background: #FFFF99;
+}
+
+.inline {
+  display: inline;
+}
+
+.user_status {
+  font-style: italic;
+  font-size: 0.9em;
+}

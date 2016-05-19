@@ -1,0 +1,6 @@
+<div>
+  <h2 class='titles'>User Names</h2>
+  <% @names.each do |name| %>
+    <p>Name: <a href=<%= "/user/#{name}" %>><%= "#{name.capitalize}" %></a></p>
+  <% end %>
+</div>

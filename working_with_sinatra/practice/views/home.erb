@@ -1,0 +1,4 @@
+<h2>Stories</h2>
+<% @files.each_with_index do |file, idx| %>
+  <li><a href="/<%= idx + 1 %>"><%= file %></a></li>
+<% end %>
