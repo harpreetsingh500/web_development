@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic Directory Index</title>
+  </head>
+  
+  <body>
+    
+    <% @files.each do |file| %>
+      <ul>
+        <li><a href="/<%= file %>"><%= file %></a></li>
+      </ul>
+    <% end %>
+    
+    <% if @sort %>
+      <a href="/sort/<%= false %>">Sort descending</a>
+    <% else %>
+      <a href="/sort/<%= true %>">Sort ascending</a>
+    <% end %>
+  
+  </body>
+</html>
